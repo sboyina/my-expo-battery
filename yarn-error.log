@@ -1,0 +1,65 @@
+Arguments: 
+  /Users/boyina/.nvm/versions/node/v14.15.1/bin/node /Users/boyina/.nvm/versions/node/v14.15.1/bin/yarn exec -- npx tsc
+
+PATH: 
+  /Users/boyina/Desktop/poc/assets/expo-battery/node_modules/.bin:/Users/boyina/Desktop/poc/assets/node_modules/.bin:/Users/boyina/Desktop/poc/node_modules/.bin:/Users/boyina/Desktop/node_modules/.bin:/Users/boyina/node_modules/.bin:/Users/node_modules/.bin:/node_modules/.bin:/Users/boyina/.nvm/versions/node/v14.15.1/lib/node_modules/npm/node_modules/@npmcli/run-script/lib/node-gyp-bin:/usr/local/lib/ruby/gems/3.1.0/bin:/usr/local/opt/ruby/bin:/Library/Java/JavaVirtualMachines/adoptopenjdk-11.jdk/Contents/Home/bin:/Users/boyina/Library/Android/sdk/tools:/Users/boyina/Library/Android/sdk/platform-tools:/Users/boyina/.nvm/versions/node/v14.15.1/bin:/usr/local/bin:/System/Cryptexes/App/usr/bin:/usr/bin:/bin:/usr/sbin:/sbin:/Library/Apple/usr/bin:/Users/boyina/softwares/gradle/7.1.1/bin:/Applications/CMake.app/Contents/MacOS:
+
+Yarn version: 
+  1.22.18
+
+Node version: 
+  14.15.1
+
+Platform: 
+  darwin x64
+
+Trace: 
+  Error: EPERM: operation not permitted, open '/Users/boyina/Desktop/package.json'
+
+npm manifest: 
+  {
+    "name": "expo-battery",
+    "version": "7.0.0",
+    "description": "Provides battery information for the physical device, as well as corresponding event listeners.",
+    "main": "build/Battery.js",
+    "types": "build/Battery.d.ts",
+    "scripts": {
+      "build": "expo-module build",
+      "clean": "expo-module clean",
+      "lint": "expo-module lint",
+      "test": "expo-module test",
+      "prepare": "expo-module prepare",
+      "prepublishOnly": "expo-module prepublishOnly",
+      "expo-module": "expo-module"
+    },
+    "keywords": [
+      "react-native",
+      "expo",
+      "expo-battery"
+    ],
+    "repository": {
+      "type": "git",
+      "url": "https://github.com/expo/expo.git",
+      "directory": "packages/expo-battery"
+    },
+    "bugs": {
+      "url": "https://github.com/expo/expo/issues"
+    },
+    "author": "650 Industries, Inc.",
+    "license": "MIT",
+    "homepage": "https://docs.expo.dev/versions/latest/sdk/battery/",
+    "dependencies": {},
+    "devDependencies": {
+      "expo-module-scripts": "^3.0.0"
+    },
+    "peerDependencies": {
+      "expo": "*"
+    },
+    "gitHead": "eab2b09c735fb0fc2bf734a3f29a6593adba3838"
+  }
+
+yarn manifest: 
+  No manifest
+
+Lockfile: 
+  No lockfile
